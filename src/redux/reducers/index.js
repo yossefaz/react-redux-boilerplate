@@ -1,5 +1,6 @@
 import { combineReducers } from "redux";
+import sampleReducer from './sampleReducer'
 
 export default combineReducers({
-    replaceMe : () => 'TO REPLACE'
+    sampleReducer : sampleReducer
 })
